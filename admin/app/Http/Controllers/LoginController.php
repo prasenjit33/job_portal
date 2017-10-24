@@ -45,14 +45,14 @@ class LoginController extends Controller {
             }
             else
             {
-                echo "<script>window.location.href='http://localhost/german_caption/admin/'</script>";
+                echo "<script>window.location.href='http://localhost/job_portal/admin/'</script>";
             }
         }
         
         public function logout()
         {
             Session::flush();
-            echo "<script>window.location.href='http://localhost/german_caption/admin/'</script>";
+            echo "<script>window.location.href='http://localhost/job_portal/admin/'</script>";
         }
 
 }
