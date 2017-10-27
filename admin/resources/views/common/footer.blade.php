@@ -73,6 +73,7 @@
     
     <!-- Custom Scripts -->
     <script src="js/country.js"></script>
+    <script src="js/city.js" ></script>
     
     <!-- Dropzone.js -->
     <script src="assets/vendors/dropzone/dist/min/dropzone.min.js"></script>

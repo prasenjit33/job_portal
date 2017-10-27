@@ -36,3 +36,12 @@ Route::post('AjaxTrashCountry', 'LocationController@AjaxTrashCountry');
 Route::get('AjaxGetAllTrashedCountries', 'LocationController@AjaxGetAllTrashedCountries');
 Route::post('AjaxDeleteCountryByCountrySlug', 'LocationController@AjaxDeleteCountryByCountrySlug');
 Route::post('AjaxRestoreCountryByCountrySlug', 'LocationController@AjaxRestoreCountryByCountrySlug');
+
+Route::get('city', 'LocationController@GetCities');
+Route::get('AjaxGetAllCities', 'LocationController@AjaxGetAllCities');
+Route::post('AjaxSaveCity', 'LocationController@AjaxSaveCity');
+Route::post('AjaxGetCityByID', 'LocationController@AjaxGetCityByID');
+Route::post('AjaxTrashCity', 'LocationController@AjaxTrashCity');
+Route::get('AjaxGetAllTrashedCities', 'LocationController@AjaxGetAllTrashedCities');
+Route::post('AjaxRestoreCityByCitySlug', 'LocationController@AjaxRestoreCityByCitySlug');
+Route::post('AjaxDeleteCityByCitySlug', 'LocationController@AjaxDeleteCityByCitySlug');

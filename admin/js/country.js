@@ -175,7 +175,7 @@ function ResetCountryForm()
 
 function GetAllCountries()
 {
-    $('#itemLink').html('<a href=\"javascript:void(0)\" onclick=\"GetAllTrashedCountries()\"><i class=\"fa fa-trash\"></i> Trashed Item</a>');
+    $('#itemLinkCountryCountry').html('<a href=\"javascript:void(0)\" onclick=\"GetAllTrashedCountries()\"><i class=\"fa fa-trash\"></i> Trashed Item</a>');
     $('#datatable-checkbox-country').dataTable({ 
             'sAjaxSource':'AjaxGetAllCountries',
             "bDestroy": true,
@@ -274,7 +274,7 @@ function TrashCountry(country_slug)
 
 function GetAllTrashedCountries()
 {
-    $('#itemLink').html('<a href=\"javascript:void(0)\" onclick=\"GetAllCountries()\"><i class=\"fa fa-check-square\"></i> All Countries</a>');
+    $('#itemLinkCountry').html('<a href=\"javascript:void(0)\" onclick=\"GetAllCountries()\"><i class=\"fa fa-check-square\"></i> All Countries</a>');
     $('#datatable-checkbox-country').dataTable({ 
             'sAjaxSource':'AjaxGetAllTrashedCountries',
             "bDestroy": true,
