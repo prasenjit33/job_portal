@@ -1,7 +1,7 @@
 <!-- footer content -->
         <footer>
           <div class="pull-right">
-              German Caption Developed by <a href="http://skylineserves.com" target="_blank">SkylineServes</a>
+              Re & Re Again Developed by <a href="http://skylineserves.com" target="_blank">SkylineServes</a>
           </div>
           <div class="clearfix"></div>
         </footer>
@@ -72,9 +72,10 @@
     <script src="assets/build/js/custom.min.js"></script>
     
     <!-- Custom Scripts -->
-    <script src="js/custom.js"></script>
+    <script src="js/country.js"></script>
     
-    <!-- include flowplayer -->
-   <script src="flowplayer/flowplayer.min.js"></script>
+    <!-- Dropzone.js -->
+    <script src="assets/vendors/dropzone/dist/min/dropzone.min.js"></script>
+    
   </body>
 </html>

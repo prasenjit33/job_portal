@@ -40,16 +40,13 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>German Caption</span></a>
+              <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Re & Re Again</span></a>
             </div>
 
             <div class="clearfix"></div>
 
             <!-- menu profile quick info -->
             <div class="profile clearfix">
-              <div class="profile_pic">
-                <img src="assets/production/images/img.jpg" alt="..." class="img-circle profile_img">
-              </div>
               <div class="profile_info">
                 <span>Welcome,</span>
                 <h2><?php if(Session::get('admin_ID')!='') 
@@ -62,7 +59,6 @@
 
             <br />
             <?php echo View::make('common.sidebar'); ?>
-
             <!-- /menu footer buttons -->
             <div class="sidebar-footer hidden-small">
               <a data-toggle="tooltip" data-placement="top" title="Settings">

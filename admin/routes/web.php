@@ -21,3 +21,18 @@ Route::get('/', function () {
 Route::post('login', 'LoginController@login');
 Route::get('dashboard', 'LoginController@dashboard');
 Route::get('logout', 'LoginController@logout');
+
+//Home Section
+Route::get('top-slider', 'HomeController@index');
+Route::post('UploadTopSectionImage', 'HomeController@UploadTopSectionImage');
+
+//Location Section
+Route::get('country', 'LocationController@GetCountries');
+Route::get('AjaxGetAllCountries', 'LocationController@AjaxGetAllCountries');
+Route::get('add-country', 'LocationController@AddCountry');
+Route::post('AjaxSaveCountry', 'LocationController@AjaxSaveCountry');
+Route::post('AjaxGetCountryByID', 'LocationController@AjaxGetCountryByID');
+Route::post('AjaxTrashCountry', 'LocationController@AjaxTrashCountry');
+Route::get('AjaxGetAllTrashedCountries', 'LocationController@AjaxGetAllTrashedCountries');
+Route::post('AjaxDeleteCountryByCountrySlug', 'LocationController@AjaxDeleteCountryByCountrySlug');
+Route::post('AjaxRestoreCountryByCountrySlug', 'LocationController@AjaxRestoreCountryByCountrySlug');
